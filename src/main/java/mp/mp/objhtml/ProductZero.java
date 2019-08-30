@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class ProductZero extends PageObject {
 	
-	private WebElement productzero = driver.findElement(By.cssSelector(".product-layout:nth-child(3) .img-responsive"));
+	private WebElement productzero = driver.findElement(By.cssSelector(".product-layout:nth-child(2) .img-responsive"));
 
 	public ProductZero(WebDriver driver) {
 		super(driver);
