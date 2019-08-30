@@ -5,5 +5,13 @@ dist: xenial
 addons:
   firefox: "latest"
 script:  xvfb-run -a mvn clean test
+
+notifications:
+  slack:
+    rooms:
+    on_success: never
+  webhooks:
+    https://docs.travis-ci.com/update_webhook_payload_doc
+
 before_install:
   - chmod +x /home/travis/build/germansalinas700/mp/geckodriver
