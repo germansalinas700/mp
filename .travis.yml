@@ -4,6 +4,6 @@ services:
   - xvfb
 addons:
   firefox: "latest"
-script: mvn clean test
+script: xvfb-run mvn clean test
 before_install:
   - chmod +x /home/travis/build/germansalinas700/mp/geckodriver
