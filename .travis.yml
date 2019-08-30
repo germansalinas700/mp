@@ -11,5 +11,5 @@ addons:
 script: mvn clean test
 
 before_install:
-  - xdg-open 'opencart.abstracta.us'
+  - xdg-open 'http://opencart.abstracta.us'
   - chmod +x /home/travis/build/germansalinas700/mp/geckodriver
