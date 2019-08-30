@@ -11,5 +11,4 @@ addons:
 script: mvn clean test
 
 before_install:
-  - startx 
   - chmod +x /home/travis/build/germansalinas700/mp/geckodriver
