@@ -1,0 +1,9 @@
+language: java
+dist: xenial
+services:
+  - xvfb
+addons:
+  firefox: "latest"
+script: mvn clean test
+before_install:
+  - chmod +x /home/travis/build/germansalinas700/mp/geckodriver
