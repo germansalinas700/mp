@@ -3,7 +3,7 @@
 <suite name="MPTestNg">
   <test name="MPTestNg">
     <classes>
-      <class name="mp.mp.PruebaTest"/>
+      <class name="mp.mp.formtest.DataDriveFormTest"/>
     </classes>
   </test>
 </suite>
