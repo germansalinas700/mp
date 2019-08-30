@@ -7,5 +7,5 @@ addons:
 script:  xvfb-run -a mvn clean test
 
 before_install:
-  https://opencart.abstracta.us
+  - xdg-open 'https://opencart.abstracta.us'
   - chmod +x /home/travis/build/germansalinas700/mp/geckodriver
