@@ -54,7 +54,7 @@ public class RegisterOrderFormTest extends FunctionalTest {
 		
 		SearchBar sBAR = new SearchBar(driver);
 		Assert.assertTrue(sBAR.isInitialized());
-		sBAR.enterSearch("Samsung");
+		sBAR.enterSearch("mac");
 		
 		
 		SearchBarButtom bBUTT = new SearchBarButtom(driver);
@@ -64,7 +64,7 @@ public class RegisterOrderFormTest extends FunctionalTest {
 		Assert.assertTrue(pZERO.isInitialized());
 		ProductPrice pPRIC =pZERO.ClickProductZero();
 		
-		Assert.assertEquals("Ex Tax: $200.00",pPRIC.getValueProductPrice().trim());
+		Assert.assertEquals("Ex Tax: $1,000.00",pPRIC.getValueProductPrice().trim());
 		
 		CartButton cBUTT = new CartButton(driver);
 		Assert.assertTrue(cBUTT.isInitialized());
