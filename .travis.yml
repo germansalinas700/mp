@@ -4,6 +4,6 @@ dist: xenial
 
 addons:
   firefox: "latest"
-script:  xvfb-run -a --server-args="-screen 0 1024x768x24" mvn clean test
+script:  xvfb-run -a mvn clean test
 before_install:
   - chmod +x /home/travis/build/germansalinas700/mp/geckodriver
