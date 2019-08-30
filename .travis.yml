@@ -2,9 +2,13 @@ language: java
 
 dist: xenial
 
+services:
+  - xvfb
+
 addons:
   firefox: "latest"
-script:  xvfb-run -a mvn clean test
+  
+script: mvn clean test
 
 before_install:
   - xdg-open 'https://opencart.abstracta.us'
