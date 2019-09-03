@@ -6,7 +6,7 @@
       <class name="mp.mp.formtest.DataDriveFormTest"/>
       <class name="mp.mp.formtest.EditAccountFormTest"/>
       <class name="mp.mp.formtest.RegisterOrderFormTest"/>
-      <class name="mp.mp.formtest.SearchProductFormTest"/>
+      <!--- <class name="mp.mp.formtest.SearchProductFormTest"/>  -->
       <class name="mp.mp.formtest.SignUpFormTest"/>
     </classes>
   </test>
